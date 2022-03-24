@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeCalculator", "ChangeCalculator\ChangeCalculator.csproj", "{C0BADAB6-607A-406E-9606-F8FD42BEB0AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35E61DF5-7456-4171-848F-E203E9257431} = {35E61DF5-7456-4171-848F-E203E9257431}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeCalculatorService", "ChangeCalculatorBL\ChangeCalculatorService.csproj", "{35E61DF5-7456-4171-848F-E203E9257431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeCalculatorTest", "ChangeCalculatorTest\ChangeCalculatorTest.csproj", "{A9A65C91-CEDD-4E39-B582-097BBC668FA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0BADAB6-607A-406E-9606-F8FD42BEB0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BADAB6-607A-406E-9606-F8FD42BEB0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BADAB6-607A-406E-9606-F8FD42BEB0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BADAB6-607A-406E-9606-F8FD42BEB0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E61DF5-7456-4171-848F-E203E9257431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E61DF5-7456-4171-848F-E203E9257431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E61DF5-7456-4171-848F-E203E9257431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E61DF5-7456-4171-848F-E203E9257431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A65C91-CEDD-4E39-B582-097BBC668FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A65C91-CEDD-4E39-B582-097BBC668FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A65C91-CEDD-4E39-B582-097BBC668FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A65C91-CEDD-4E39-B582-097BBC668FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63D973CE-45D0-44B1-A103-E271CB8B1688}
+	EndGlobalSection
+EndGlobal
